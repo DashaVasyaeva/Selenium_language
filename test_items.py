@@ -6,3 +6,4 @@ def test_guest_should_see_basket_button(browser):
     browser.get(link)
     shop_button = browser.find_elements_by_css_selector(".btn.btn-lg")
     assert len(shop_button) > 0, "Basket button not found"
+ ##
